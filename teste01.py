@@ -1,3 +1,4 @@
+#Básico
 nome=str(input("nome?\n"))
 idade=int(input("idade?\n"))
 n1=float(input("nota1?\n"))
