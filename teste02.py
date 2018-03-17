@@ -7,8 +7,8 @@ delta=float((pow(b,2))-(4*a*c))
 if delta > 0:
     x1=float((((-1)*b)+(sqrt(delta)))/(2*a))
     x2=float((((-1)*b)-(sqrt(delta)))/(2*a))
-    print("Delta={}, x1={:.2f}, x2={:.2f} ".format(delta,x1,x2))
+    print("\33[0;34mDelta={}, x1={:.2f}, x2={:.2f} ".format(delta,x1,x2))
 else:
-    print("Não existe raiz real")
+    print("\33[0;31mNão existe raiz real")
 
     
